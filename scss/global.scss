@@ -1,0 +1,91 @@
+@import "bourbon";
+
+.bg {
+	-webkit-background-size:100px;
+	-webkit-animation-name: masked-animation;
+	-webkit-animation-duration: 30s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: linear;
+	-moz-background-size:100px;
+		-moz-animation-name: masked-animation;
+		-moz-animation-duration: 30s;
+		-moz-animation-iteration-count: infinite;
+		-moz-animation-timing-function: linear;
+	background-image: -webkit-linear-gradient(left, rgb(219, 239, 121) 0%, rgb(219, 37, 166) 25%, rgba(18, 214, 249, 1) 50%, rgba(249, 18, 181, 1) 75%, rgba(249, 18, 18, 1) 100%);
+	background-image: -moz-linear-gradient(left, rgb(219, 239, 121) 0%, rgb(219, 37, 166) 25%, rgba(18, 214, 249, 1) 50%, rgba(249, 18, 181, 1) 75%, rgba(249, 18, 18, 1) 100%);
+}
+
+@-webkit-keyframes masked-animation {
+	0% {background-position: left bottom;}
+	100% {background-position: right bottom;}
+}
+
+@-moz-keyframes masked-animation {
+	0% {background-position: left bottom;}
+	100% {background-position: right bottom;}
+}
+
+@keyframes masked-animation {
+	0% {background-position: left bottom;}
+	100% {background-position: right bottom;}
+}
+
+.container {
+	margin: 20px auto 0px auto;
+	width: 320px;
+	text-align: center;
+		img {width: 275px; margin-bottom: 10px;}
+}
+
+input {
+	@include button($blue);
+	font: 1.6em $lobster;
+}
+
+
+h1 {
+	
+	color: #fff;
+	text-shadow: 2px 3px 3px #363636;
+	font: 1.5em 'Lobster', cursive;
+	margin-top: 5px;
+}
+
+
+h2 {
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	text-shadow: 2px 3px 3px #363636;
+	font: 3.5em/1.1em 'Lobster', cursive;
+	margin-bottom: 10px;
+}
+
+h3 {
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 3px 3px #363636;
+	font: 1.3em/1.3em 'Lobster', cursive;
+	margin-top: 5px;
+}
+
+p {
+	color: #686868;
+	font: 1.5em "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+	margin-bottom: 5px;
+}
+
+
+
+/* for 480px or less */
+@media screen and (max-width: 480px) {
+
+	h2 {
+		text-align: center;
+		color: #fff;
+		text-transform: uppercase;
+		text-shadow: 2px 3px 3px #363636;
+		font: 2.3em/45px $lobster;
+	}
+
+}
