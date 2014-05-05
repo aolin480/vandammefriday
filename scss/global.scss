@@ -32,9 +32,9 @@
 
 .container {
 	margin: 20px auto 0px auto;
-	width: 320px;
+	width: 80%; margin: 0 auto;
 	text-align: center;
-		img {width: 275px; margin-bottom: 10px;}
+		img {width:100%;height: auto; max-width: 500px; margin-bottom: 10px;}
 }
 
 input {
@@ -44,7 +44,7 @@ input {
 
 
 h1 {
-	
+
 	color: #fff;
 	text-shadow: 2px 3px 3px #363636;
 	font: 1.5em 'Lobster', cursive;

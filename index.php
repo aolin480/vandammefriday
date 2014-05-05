@@ -1,4 +1,7 @@
 <!DOCTYPE html>
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#">
 <head>
 	<meta charset="utf-8">
@@ -7,39 +10,34 @@
   <meta name="description" content="Uh oh...guess what day it is? That's right, it's VAN DAMME FRIDAY!" />
   <meta property="og:image" content="img/damme-snake.jpg" />
 	<link rel="stylesheet" href="css/styles.css" type="text/css" media="screen" />
-	
-	<!--[if lt IE 9]>
-	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->
-
 <!--
- __   __   ______     __   __                              
-/\ \ / /  /\  __ \   /\ "-.\ \                             
-\ \ \'/   \ \  __ \  \ \ \-.  \                            
- \ \__|    \ \_\ \_\  \ \_\\"\_\                           
-  \/_/      \/_/\/_/   \/_/ \/_/                           
-                                                           
- _____     ______     __    __     __    __     ______     
-/\  __-.  /\  __ \   /\ "-./  \   /\ "-./  \   /\  ___\    
-\ \ \/\ \ \ \  __ \  \ \ \-./\ \  \ \ \-./\ \  \ \  __\    
- \ \____-  \ \_\ \_\  \ \_\ \ \_\  \ \_\ \ \_\  \ \_____\  
-  \/____/   \/_/\/_/   \/_/  \/_/   \/_/  \/_/   \/_____/  
-                                                           
- ______   ______     __     _____     ______     __  __    
-/\  ___\ /\  == \   /\ \   /\  __-.  /\  __ \   /\ \_\ \   
-\ \  __\ \ \  __<   \ \ \  \ \ \/\ \ \ \  __ \  \ \____ \  
- \ \_\    \ \_\ \_\  \ \_\  \ \____-  \ \_\ \_\  \/\_____\ 
-  \/_/     \/_/ /_/   \/_/   \/____/   \/_/\/_/   \/_____/ 
-                                                           
+ __   __   ______     __   __
+/\ \ / /  /\  __ \   /\ "-.\ \
+\ \ \'/   \ \  __ \  \ \ \-.  \
+ \ \__|    \ \_\ \_\  \ \_\\"\_\
+  \/_/      \/_/\/_/   \/_/ \/_/
+
+ _____     ______     __    __     __    __     ______
+/\  __-.  /\  __ \   /\ "-./  \   /\ "-./  \   /\  ___\
+\ \ \/\ \ \ \  __ \  \ \ \-./\ \  \ \ \-./\ \  \ \  __\
+ \ \____-  \ \_\ \_\  \ \_\ \ \_\  \ \_\ \ \_\  \ \_____\
+  \/____/   \/_/\/_/   \/_/  \/_/   \/_/  \/_/   \/_____/
+
+ ______   ______     __     _____     ______     __  __
+/\  ___\ /\  == \   /\ \   /\  __-.  /\  __ \   /\ \_\ \
+\ \  __\ \ \  __<   \ \ \  \ \ \/\ \ \ \  __ \  \ \____ \
+ \ \_\    \ \_\ \_\  \ \_\  \ \____-  \ \_\ \_\  \/\_____\
+  \/_/     \/_/ /_/   \/_/   \/____/   \/_/\/_/   \/_____/
+
 For all you nerds that look at the source code:
 You're welcome, bitches...
 -->
 
 </head>
-<?php 
+<?php
 $day=date("l");
 
-if ($day=="Friday")
+if ($day=="Monday")
   {
 echo <<<END
 <body class="bg">
@@ -71,7 +69,7 @@ echo <<<END
  random_image()
 
 function reloadPage() {
-  location.reload(); 
+  location.reload();
 }
  </script>
    <div>
