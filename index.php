@@ -37,7 +37,7 @@ You're welcome, bitches...
 <?php
 $day=date("l");
 
-if ($day=="Sunday")
+if ($day=="Friday")
   {
 echo <<<END
 <body class="bg">
