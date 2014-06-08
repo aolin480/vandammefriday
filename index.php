@@ -37,7 +37,7 @@ You're welcome, bitches...
 <?php
 $day=date("l");
 
-if ($day=="Friday")
+if ($day=="Sunday")
   {
 echo <<<END
 <body class="bg">
@@ -47,19 +47,24 @@ echo <<<END
  <script type="text/javascript">
  function random_image(){
  var pict=new Array()
- pict[1]='<img src="img/82.gif" alt="" />'
- pict[2]='<img src="img/vdf-2.gif" alt="" />'
- pict[3]='<img src="img/van.gif" alt="" />'
- pict[4]='<img src="img/81927386.gif" alt="" />'
- pict[5]='<img src="img/126.gif" alt="" />'
- pict[6]='<img src="img/vd2.gif" alt="" />'
- pict[7]='<img src="img/vd3.gif" alt="" />'
- pict[8]='<img src="img/3i648.gif" alt="" />'
- pict[9]='<img src="img/vandamme4.gif" alt="" />'
- pict[10]='<img src="img/vandamme5.gif" alt="" />'
- pict[11]='<img src="img/vandamme6.gif" alt="" />'
- pict[12]='<img src="img/vandamme7.gif" alt="" />'
- pict[13]='<img src="img/vandamme8.gif" alt="" />'
+ pict[1]='<img src="img/vdf-01.gif" alt="" />'
+ pict[2]='<img src="img/vdf-02.gif" alt="" />'
+ pict[3]='<img src="img/vdf-03.gif" alt="" />'
+ pict[4]='<img src="img/vdf-04.gif" alt="" />'
+ pict[5]='<img src="img/vdf-05.gif" alt="" />'
+ pict[6]='<img src="img/vdf-06.gif" alt="" />'
+ pict[7]='<img src="img/vdf-07.gif" alt="" />'
+ pict[8]='<img src="img/vdf-08.gif" alt="" />'
+ pict[9]='<img src="img/vdf-09.gif" alt="" />'
+ pict[10]='<img src="img/vdf-10.gif" alt="" />'
+ pict[11]='<img src="img/vdf-11.gif" alt="" />'
+ pict[12]='<img src="img/vdf-12.gif" alt="" />'
+ pict[13]='<img src="img/vdf-13.gif" alt="" />'
+pict[14]='<img src="img/vdf-14.gif" alt="" />'
+pict[15]='<img src="img/vdf-15.gif" alt="" />'
+pict[16]='<img src="img/vdf-16.gif" alt="" />'
+pict[17]='<img src="img/vdf-17.gif" alt="" />'
+pict[18]='<img src="img/vdf-18.gif" alt="" />'
  <!--add more here-->
  var rand=Math.floor(Math.random()*pict.length)
  if (rand==0)
